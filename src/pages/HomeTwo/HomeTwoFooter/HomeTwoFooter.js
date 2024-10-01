@@ -1,6 +1,4 @@
-import React from 'react';
 import { Link } from 'react-router-dom';
-import HomeSingleFooterBlog from '../../../components/HomeSingleFooterBlog/HomeSingleFooterBlog';
 
 const HomeTwoFooter = () => {
    return (
@@ -12,7 +10,7 @@ const HomeTwoFooter = () => {
                      <div className="row align-items-center">
                         <div className="col-xl-4 col-lg-4 col-md-4">
                            <div className="footer-logo-2">
-                              <img src="img/logo/logo-2.png" alt=""/>
+                              <img src="img/logo/logo-2.png" alt="" />
                            </div>
                         </div>
                         <div className="col-xl-2 col-lg-3 d-none d-lg-block d-xl-block">
@@ -22,8 +20,8 @@ const HomeTwoFooter = () => {
                         </div>
                         <div className="col-xl-6 col-lg-5 col-md-8">
                            <form className="footer-newsletter" action="#">
-                              <input type="text" placeholder="Your Email Address...."/>
-                                 <button className="primary_btn">subscribe</button>
+                              <input type="text" placeholder="Your Email Address...." />
+                              <button className="primary_btn">subscribe</button>
                            </form>
                         </div>
                      </div>
@@ -35,7 +33,7 @@ const HomeTwoFooter = () => {
                               <div className="footer-contact-info-2">
                                  <div className="f-contact-info-box fix mb-30">
                                     <div className="footer-co-icon f-left">
-                                       <img src="img/icon/footer-co-icon-1.png" alt=""/>
+                                       <img src="img/icon/footer-co-icon-1.png" alt="" />
                                     </div>
                                     <div className="footer-co-content">
                                        <span>Mon to Fri : 08h30 - 18h00</span>
@@ -44,7 +42,7 @@ const HomeTwoFooter = () => {
                                  </div>
                                  <div className="f-contact-info-box fix mb-30">
                                     <div className="footer-co-icon f-left">
-                                       <img src="img/icon/footer-co-icon-2.png" alt=""/>
+                                       <img src="img/icon/footer-co-icon-2.png" alt="" />
                                     </div>
                                     <div className="footer-co-content">
                                        <span>do you have a question?</span>
@@ -53,7 +51,7 @@ const HomeTwoFooter = () => {
                                  </div>
                                  <div className="f-contact-info-box fix mb-30">
                                     <div className="footer-co-icon f-left">
-                                       <img src="img/icon/footer-co-icon-2.png" alt=""/>
+                                       <img src="img/icon/footer-co-icon-2.png" alt="" />
                                     </div>
                                     <div className="footer-co-content">
                                        <span>socials network</span>
@@ -92,7 +90,7 @@ const HomeTwoFooter = () => {
                               </div>
                            </div>
                         </div>
-                        <div className="col-xl-4 col-md-6">
+                        {/* <div className="col-xl-4 col-md-6">
                            <div className="footer-widget mb-40">
                               <div className="footer-title">
                                  <h3>News Feeds</h3>
@@ -105,7 +103,7 @@ const HomeTwoFooter = () => {
 
                               </div>
                            </div>
-                        </div>
+                        </div> */}
                      </div>
                   </div>
                   <div className="footer-bottom-0">
@@ -113,7 +111,7 @@ const HomeTwoFooter = () => {
                         <div className="col-xl-12">
                            <div className="footer-copyright-area text-center">
                               <p className="white-color">Copyright ©2022 <strong><a className="white-color"
-                              href="#">Basictheme. </a></strong> All rights reserved</p>
+                                 href="#">Basictheme. </a></strong> All rights reserved</p>
                            </div>
                         </div>
                      </div>

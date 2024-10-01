@@ -1,7 +1,8 @@
-import React from 'react';
+import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
 
-const CommonPageHeader = ({title,subtitle}) => {
+const CommonPageHeader = ({ title, subtitle }) => {
+   const { t } = useTranslation();
    return (
       <>
          <section className="breadcrumb-bg pt-200 pb-180 page_header_bg">
@@ -9,7 +10,7 @@ const CommonPageHeader = ({title,subtitle}) => {
                <div className="row">
                   <div className="col-lg-9 col-md-9">
                      <div className="page-title">
-                        <p className="small-text pb-15">We are here for your care.</p>
+                        <p className="small-text pb-15">{t('care_key')}</p>
                         <h1>{title}</h1>
                      </div>
                   </div>
@@ -18,7 +19,7 @@ const CommonPageHeader = ({title,subtitle}) => {
                         <nav aria-label="breadcrumb">
                            <ol className="breadcrumb ">
                               <li className="breadcrumb-item">
-                                 <Link to="/">Home</Link>
+                                 <Link to="/">{t('home_key')}</Link>
                               </li>
                               <li className="breadcrumb-item active" aria-current="page">{subtitle}</li>
                            </ol>

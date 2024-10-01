@@ -1,7 +1,8 @@
-import React from 'react';
+import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
 
 const HomeFact = () => {
+   const { t } = useTranslation();
    return (
       <>
          <section className="fact-area fact-map primary-bg pos-rel pt-115 pb-60">
@@ -11,11 +12,11 @@ const HomeFact = () => {
                      <div className="section-title pos-rel mb-45">
                         <div className="section-text section-text-white pos-rel">
                            <h5>We are available 24/7</h5>
-                           <h1 className="white-color">We Always Ready For A Challenge.</h1>
+                           <h1 className="white-color">{t('always_ready_challenge_key')}</h1>
                         </div>
                      </div>
                      <div className="section-button section-button-left mb-30">
-                        <Link to="/contact" className="primary_btn btn-icon ml-0"><span>+</span>Make Appointment</Link>
+                        <Link to="/contact" className="primary_btn btn-icon ml-0"><span>+</span>{t('contact_key')}</Link>
                      </div>
                   </div>
                   <div className="col-lg-6 col-lg-6 col-md-8">

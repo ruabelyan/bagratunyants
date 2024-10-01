@@ -1,4 +1,3 @@
-import React from 'react';
 import { Link } from 'react-router-dom';
 import VideoPopup from '../../../components/VideoPopup/VideoPopup';
 import useGlobalContext from '../../../hooks/useGlobalContext';
@@ -14,7 +13,7 @@ const HomeTwoHeroSection = () => {
             <div className="hero-slider hero_two_slider">
                <div className="slider-active">
                   <div className="single-slider slider-height slider-height-2 d-flex align-items-center"
-                  data-background="img/slider/slider-bg-2.jpg">
+                     data-background="img/slider/slider-bg-2.jpg">
                      <div className="container">
                         <div className="row align-items-center">
                            <div className="col-xl-6 col-lg-6 col-md-10">
@@ -40,7 +39,7 @@ const HomeTwoHeroSection = () => {
                                        <div className="col-xl-12">
                                           <div className="appoinment-form-box appoinment-form-box-option d-flex mb-40">
                                              <div className="appoint-ment-icon">
-                                                <img src="img/icon/caregive-option-icon-2.png" alt=""/>
+                                                <img src="img/icon/caregive-option-icon-2.png" alt="" />
                                              </div>
                                              <form className="appointment-form-2" action="#">
                                                 <label htmlFor="input">select your location</label>
@@ -56,7 +55,7 @@ const HomeTwoHeroSection = () => {
                                        <div className="col-xl-12">
                                           <div className="appoinment-form-box appoinment-form-box-option d-flex mb-40">
                                              <div className="appoint-ment-icon">
-                                                <img src="img/icon/caregive-option-icon-2.png" alt=""/>
+                                                <img src="img/icon/caregive-option-icon-2.png" alt="" />
                                              </div>
                                              <form className="appointment-form-2" action="#">
                                                 <label htmlFor="input">select your services</label>

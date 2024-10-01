@@ -1,4 +1,3 @@
-import React from 'react';
 import Slider from "react-slick";
 import HomeHeroSingleSlide from '../../../../components/HomeHeroSingleSlide/HomeHeroSingleSlide';
 import VideoPopup from '../../../../components/VideoPopup/VideoPopup';
@@ -6,7 +5,7 @@ import useGlobalContext from '../../../../hooks/useGlobalContext';
 
 const HomeHeroSection = () => {
 
-   const { SlickArrowLeft, SlickArrowRight} = useGlobalContext();
+   const { SlickArrowLeft, SlickArrowRight } = useGlobalContext();
 
 
    const settings = {

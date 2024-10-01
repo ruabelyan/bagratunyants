@@ -1,4 +1,3 @@
-import React from 'react';
 import { Link } from 'react-router-dom';
 import HomeSingleFooterBlog from '../../../components/HomeSingleFooterBlog/HomeSingleFooterBlog';
 
@@ -12,16 +11,16 @@ const HomeFourFooter = () => {
                      <div className="col-xl-3 col-lg-6 col-md-6">
                         <div className="footer-contact-info footer-contact-info-3 mb-40">
                            <div className="footer-logo mb-35">
-                              <Link to="/"><img src="img/logo/footer-logo-3.png" alt=""/></Link>
+                              <Link to="/"><img src="img/logo/footer-logo-3.png" alt="" /></Link>
                            </div>
                            <div className="footer-contact-content mb-25">
                               <p className="p-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis</p>
                            </div>
                            <div className="footer-emailing">
                               <ul>
-                                 <li><i className="far fa-envelope"></i>info@examplemedical.com</li>
-                                 <li><i className="far fa-clone"></i>examplemedical.com</li>
-                                 <li><i className="far fa-flag"></i>227 Marion Street, Columbia</li>
+                                 <li><i className="far fa-envelope"></i>poliklinika-13@mail.ru</li>
+                                 {/* <li><i className="far fa-clone"></i>examplemedical.com</li> */}
+                                 <li><i className="far fa-flag"></i>Շահամիրյանների փող., 32 շենք</li>
                               </ul>
                            </div>
                         </div>
@@ -49,9 +48,9 @@ const HomeFourFooter = () => {
                               <h3>Recent News</h3>
                            </div>
                            <div className="blog-feeds pe-15">
-                               <HomeSingleFooterBlog image="1" />
-                               <HomeSingleFooterBlog image="2" />
-                               <HomeSingleFooterBlog image="3" />
+                              <HomeSingleFooterBlog image="1" />
+                              <HomeSingleFooterBlog image="2" />
+                              <HomeSingleFooterBlog image="3" />
                            </div>
                         </div>
                      </div>
@@ -83,7 +82,7 @@ const HomeFourFooter = () => {
                   <div className="row">
                      <div className="col-xl-12">
                         <div className="footer-copyright footer-copyright-3 text-center">
-                           <p>Copyright by@ BasicTheme - 2022</p>
+                           <p>Copyright by@ rubabelyan - 2024</p>
                         </div>
                      </div>
                   </div>

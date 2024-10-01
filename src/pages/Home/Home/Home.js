@@ -1,7 +1,4 @@
 import HomeAboutArea from './HomeAboutArea/HomeAboutArea';
-import HomeBlogs from './HomeBlogs/HomeBlogs';
-import HomeCta from './HomeCta/HomeCta';
-import HomeFact from './HomeFact/HomeFact';
 import HomeFooter from './HomeFooter/HomeFooter';
 import HomeHeader from './HomeHeader/HomeHeader';
 import HomeHeroSection from './HomeHeroSection/HomeHeroSection';
@@ -16,9 +13,9 @@ const Home = () => {
             <HomeAboutArea />
             <HomeServices />
             <HomeOurTeam />
-            <HomeFact />
-            <HomeCta />
-            <HomeBlogs />
+            {/* <HomeFact /> */}
+            {/* <HomeCta /> */}
+            {/* <HomeBlogs /> */}
             <HomeFooter />
         </>
     );

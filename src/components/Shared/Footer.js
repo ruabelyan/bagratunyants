@@ -1,6 +1,4 @@
-import React from 'react';
 import { Link } from 'react-router-dom';
-import HomeSingleFooterBlog from '../HomeSingleFooterBlog/HomeSingleFooterBlog';
 
 const Footer = () => {
    return (
@@ -12,23 +10,21 @@ const Footer = () => {
                      <div className="col-xl-4 col-lg-6 col-md-6">
                         <div className="footer-contact-info footer-contact-info-3 mb-40">
                            <div className="footer-logo mb-35">
-                              <Link to="/"><img src="img/logo/footer-logo-3.png" alt="" /></Link>
+                              <Link to="/"><img style={{ maxWidth: 150 }} src="img/logo/footer-logo-3.png" alt="" /></Link>
                            </div>
                            <div className="footer-contact-content mb-25">
-                              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                                 incididunt ut labore et dolore magna
-                                 aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.</p>
+                              <p> Բագրատունյանց ԱԿ ցուցաբերվում է բարձրակարգ, ժամանակակից բժշկական օգնություն:</p>
                            </div>
                            <div className="footer-emailing">
                               <ul>
-                                 <li><i className="far fa-envelope"></i>info@examplemedical.com</li>
-                                 <li><i className="far fa-clone"></i>examplemedical.com</li>
-                                 <li><i className="far fa-flag"></i>227 Marion Street, Columbia</li>
+                                 <li><i className="far fa-envelope"></i>poliklinika-13@mail.ru</li>
+                                 {/* <li><i className="far fa-clone"></i>examplemedical.com</li> */}
+                                 <li><i className="far fa-flag"></i>Շահամիրյանների փող., 32 շենք</li>
                               </ul>
                            </div>
                         </div>
                      </div>
-                     <div className="col-xl-4 col-lg-6 col-md-6">
+                     {/* <div className="col-xl-4 col-lg-6 col-md-6">
                         <div className="footer-widget mb-40">
                            <div className="footer-title">
                               <h3>Departments</h3>
@@ -50,8 +46,8 @@ const Footer = () => {
                               </ul>
                            </div>
                         </div>
-                     </div>
-                     <div className="col-xl-4 col-lg-6 col-md-6">
+                     </div> */}
+                     {/* <div className="col-xl-4 col-lg-6 col-md-6">
                         <div className="footer-widget mb-40">
                            <div className="footer-title">
                               <h3>News Feeds</h3>
@@ -62,7 +58,7 @@ const Footer = () => {
                               <HomeSingleFooterBlog image="3" />
                            </div>
                         </div>
-                     </div>
+                     </div> */}
                   </div>
                </div>
             </div>
@@ -71,7 +67,7 @@ const Footer = () => {
                   <div className="row">
                      <div className="col-xl-12">
                         <div className="footer-copyright footer-copyright-3 text-center">
-                           <p>Copyright by@ BasicTheme - 2022</p>
+                           <p>Copyright by@ rubabelyan - 2024</p>
                         </div>
                      </div>
                   </div>

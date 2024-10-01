@@ -1,6 +1,8 @@
+import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
 
 const HomeFooter = () => {
+    const { t } = useTranslation();
     return (
         <>
             <footer>
@@ -14,7 +16,7 @@ const HomeFooter = () => {
                                             <i className="fas fa-phone"></i>
                                         </div>
                                         <div className="emmergency-call-text f-left">
-                                            <h6>Emergency number</h6>
+                                            <h6>{t('phone_number_key')}</h6>
                                             <span> (010) 48-21-51</span>
                                         </div>
                                     </div>
@@ -27,9 +29,9 @@ const HomeFooter = () => {
                                     </div>
                                     <div className="footer-emailing">
                                         <ul>
-                                            <li><i className="far fa-envelope"></i>info@examplemedical.com</li>
-                                            <li><i className="far fa-clone"></i>examplemedical.com</li>
-                                            <li><i className="far fa-flag"></i>227 Marion Street, Columbia</li>
+                                            <li><i className="far fa-envelope"></i>poliklinika-13@mail.ru</li>
+                                            {/* <li><i className="far fa-clone"></i>examplemedical.com</li> */}
+                                            <li><i className="far fa-flag"></i>Շահամիրյանների փող., 32 շենք</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -37,16 +39,16 @@ const HomeFooter = () => {
                             <div className="col-xl-2 offset-xl-1 col-lg-3 col-md-4">
                                 <div className="footer-widget mb-30">
                                     <div className="footer-title">
-                                        <h3>Departments</h3>
+                                        <h3>{t('department_key')}</h3>
                                     </div>
                                     <div className="footer-menu">
                                         <ul>
-                                            <li><Link to="/servicesDetails">Surgery and Radiology</Link></li>
-                                            <li><Link to="/servicesDetails">Family Medicine</Link></li>
-                                            <li><Link to="/servicesDetails">Women’s Health</Link></li>
-                                            <li><Link to="/servicesDetails">Optician</Link></li>
-                                            <li><Link to="/servicesDetails">Pediatrics</Link></li>
-                                            <li><Link to="/servicesDetails">Dermatology</Link></li>
+                                            <li><Link to="/">{t('cabinet_kka_key')}</Link></li>
+                                            <li><Link to="/">{t('ophthalmology_cabinet_key')}</Link></li>
+                                            <li><Link to="/">{t('endocrinology_cabinet_key')}</Link></li>
+                                            <li><Link to="/">{t('dermatology_cabinet_key')}</Link></li>
+                                            <li><Link to="/">{t('neurology_cabinet_key')}</Link></li>
+                                            {/* <li><Link to="/servicesDetails">Dermatology</Link></li> */}
                                         </ul>
                                     </div>
                                 </div>
@@ -54,16 +56,17 @@ const HomeFooter = () => {
                             <div className="col-xl-2 offset-xl-1 col-lg-3 d-md-none d-lg-block">
                                 <div className="footer-widget mb-30">
                                     <div className="footer-title">
-                                        <h3>Quick Links</h3>
+                                        <h3>{t('diagnostic_services_key')}</h3>
                                     </div>
                                     <div className="footer-menu">
                                         <ul>
-                                            <li><Link to="/servicesDetails">Departments</Link></li>
-                                            <li><Link to="/doctors">Our Doctors</Link></li>
-                                            <li><Link to="/blogs">News</Link></li>
-                                            <li><Link to="/shop">Shop</Link></li>
-                                            <li><Link to="/contact">Contact Us</Link></li>
-                                            <li><Link to="/contact">Book an Appointment</Link></li>
+                                            <li><Link to="/">{t('xray_cabinet_key')}</Link></li>
+                                            <li><Link to="/">{t('fluorography_cabinet_key')}</Link></li>
+                                            <li><Link to="/">{t('ecg_cabinet_key')}</Link></li>
+                                            <li><Link to="/">{t('ultrasound_cabinet_key')}</Link></li>
+                                            <li><Link to="/">{t('echocardiography_key')}</Link></li>
+                                            <li><Link to="/">{t('electroneuromyography_key')}</Link></li>
+                                            <li><Link to="/">{t('autorefractor_key')}</Link></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -76,7 +79,7 @@ const HomeFooter = () => {
                         <div className="row">
                             <div className="col-xl-12">
                                 <div className="footer-copyright text-center">
-                                    <p className="white-color">Copyright by@ BasicTheme - 2022</p>
+                                    <p className="white-color">Copyright by@ rubabelyan - 2024</p>
                                 </div>
                             </div>
                         </div>
