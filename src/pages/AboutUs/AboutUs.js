@@ -6,19 +6,23 @@ import AboutAnalysis from './AboutAnalysis/AboutAnalysis';
 import AboutArea from './AboutArea/AboutArea';
 import AboutCounter from './AboutCounter/AboutCounter';
 import AboutTestimonial from './AboutTestimonial/AboutTestimonial';
+import { useTranslation } from 'react-i18next';
+
 
 const AboutUs = () => {
+   const { t } = useTranslation();
+
    return (
       <>
          <HomeHeader />
-         <CommonPageHeader title="About Us" subtitle="About" />
+         <CommonPageHeader title={t("about_us_key")} subtitle={t("about_key")} />
          <AboutArea />
          <AboutCounter />
          {/* <AboutAppoinment /> */}
          {/* <HomeOurTeam/> */}
          <HomeFact />
          <AboutTestimonial />
-         <AboutAnalysis />
+         {/* <AboutAnalysis /> */}
          <Footer />
       </>
    );

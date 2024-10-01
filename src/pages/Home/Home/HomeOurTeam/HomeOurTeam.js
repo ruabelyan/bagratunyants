@@ -25,18 +25,18 @@ const HomeOurTeam = () => {
                   </div>
                   <div className="col-xl-6 col-lg-5">
                      <div className="section-button text-end d-none d-lg-block pt-80 team_btn">
-                        <Link to="/contact" className="primary_btn btn-icon ml-0"><span>+</span>Make Appointment</Link>
+                        <Link to="/contact" className="primary_btn btn-icon ml-0"><span>+</span>{t("make_appointment_key")}</Link>
                      </div>
                   </div>
                </div>
                <div className="row">
 
-                  <HomeSingleTeam image="1" title="Rosalina D. Williamson" subtitle="Founder" />
-                  <HomeSingleTeam image="2" title="Diconda PIran Will" subtitle="dentist" />
-                  <HomeSingleTeam image="3" title="Hulk M. Kenbon" subtitle="neurologist" />
-                  <HomeSingleTeam image="4" title="Haliam Z. Dicolaz" subtitle="Consultant" />
-                  <HomeSingleTeam image="5" title="Nicolas D. Case" subtitle="dentist" />
-                  <HomeSingleTeam image="6" title="Phumdon H. Norman" subtitle="neurologist" />
+                  <HomeSingleTeam image="1" title="Rosalina D. Williamson" subtitle={t("founder_key")} />
+                  <HomeSingleTeam image="2" title="Diconda PIran Will" subtitle={t("dentist_key")} />
+                  <HomeSingleTeam image="3" title="Hulk M. Kenbon" subtitle={t("neurologist_key")} />
+                  <HomeSingleTeam image="4" title="Haliam Z. Dicolaz" subtitle={t("consultant_key")} />
+                  <HomeSingleTeam image="5" title="Nicolas D. Case" subtitle={t("dentist_key")} />
+                  <HomeSingleTeam image="6" title="Phumdon H. Norman" subtitle={t("neurologist_key")} />
 
                </div>
             </div>

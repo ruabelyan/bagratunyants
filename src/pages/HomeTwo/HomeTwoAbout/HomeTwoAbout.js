@@ -23,7 +23,7 @@ const HomeTwoAbout = () => {
                      <div className="about-right-side pt-25 mb-30">
                         <div className="about-title mb-20">
                            <h5 className="pink-color">About Us</h5>
-                           <h1>Short Story About MediDove Clinic.</h1>
+                           <h1>ssShort Story About MediDove Clinic.</h1>
                         </div>
                         <div className="about-text">
                            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute

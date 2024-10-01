@@ -24,7 +24,7 @@ const HomeAboutArea = () => {
                      <div className="about-right-side pt-55 mb-30">
                         <div className="about-title mb-20">
                            <h5>{t('about_key')}</h5>
-                           <h1>Բագրատունյանց ԱԿ</h1>
+                           <h1>{t("bagratunyants_clinic_key")}</h1>
                         </div>
                         <div className="about-text">
                            <p> Երևանի «Բագրատունյաց» առողջության կենտրոնի կողմից բնակչությանը տրամադրվում է պետության կողմից երաշխավորված անվճար արտահիվանդանոցային բժշկական օգնություն և սպասարկում՝  համաձայն ՀՀ կառավուրաթյան 318-Ն որոշման:</p>
@@ -34,8 +34,8 @@ const HomeAboutArea = () => {
                               <img src="img/about/author-ava.png" alt="" />
                            </div>
                            <div className="author-desination">
-                              <h4>Ռուզան Դուրգարյան</h4>
-                              <h6>Տնօրեն</h6>
+                              <h4>{t("ruzanna_durgharyan_key")}</h4>
+                              <h6>{t("director_key")}</h6>
                            </div>
                         </div>
                      </div>

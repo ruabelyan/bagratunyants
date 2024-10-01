@@ -1,6 +1,10 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
+
 
 const AboutTestimonial = () => {
+   const { t } = useTranslation();
+
    return (
       <>
          <div className="testimonials-area pt-115 pb-120">
@@ -12,8 +16,8 @@ const AboutTestimonial = () => {
                            <img className="section-back-icon" src="img/section/section-back-icon.png" alt=""/>
                         </div>
                         <div className="section-text pos-rel">
-                           <h5>Testimonials</h5>
-                           <h1>Our Clients Says About Us</h1>
+                           <h5>{t("testimonials_key")}</h5>
+                           <h1>{t("our_clients_say_about_us_key")}</h1>
                         </div>
                         <div className="section-line pos-rel">
                            <img src="img/shape/section-title-line.png" alt=""/>
@@ -41,8 +45,10 @@ const AboutTestimonial = () => {
                               <span></span>
                            </div>
                            <div className="testi-author">
-                              <h2 className="testi-author-title">Rosalina D. Williamson</h2>
-                              <span className="testi-author-desination">founder, uithemes</span>
+                              <h2 className="testi-author-title">Արմեն Գրիգորյան</h2>
+                              {/* <span className="testi-author-desination">founder, uithemes</span> */}
+                              <span className="testi-author-desination">{t("founder_key")}</span>
+
                            </div>
                            <div className="test-author-icon">
                               <img src="img/testimonials/testi-author-icon.png" alt=""/>

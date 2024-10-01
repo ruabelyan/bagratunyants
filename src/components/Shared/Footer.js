@@ -1,6 +1,10 @@
 import { Link } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
+
 
 const Footer = () => {
+   const { t } = useTranslation();
+
    return (
       <>
          <footer>
@@ -13,13 +17,13 @@ const Footer = () => {
                               <Link to="/"><img style={{ maxWidth: 150 }} src="img/logo/footer-logo-3.png" alt="" /></Link>
                            </div>
                            <div className="footer-contact-content mb-25">
-                              <p> Բագրատունյանց ԱԿ ցուցաբերվում է բարձրակարգ, ժամանակակից բժշկական օգնություն:</p>
+                              <p>{t("bagratunyants_clinic_info_key")}</p>
                            </div>
                            <div className="footer-emailing">
                               <ul>
                                  <li><i className="far fa-envelope"></i>poliklinika-13@mail.ru</li>
                                  {/* <li><i className="far fa-clone"></i>examplemedical.com</li> */}
-                                 <li><i className="far fa-flag"></i>Շահամիրյանների փող., 32 շենք</li>
+                                 <li><i className="far fa-flag"></i>{t("shahamiryanneri_street_key")}</li>
                               </ul>
                            </div>
                         </div>

@@ -11,7 +11,7 @@ const Contact = () => {
     return (
         <>
             <HomeHeader />
-            <CommonPageHeader title={t('contact_key')} subtitle="Contact" />
+            <CommonPageHeader title={t('contact_key')} subtitle={t('contact_key')} />
             <ContactArea />
             <ContactFormArea />
             <ContactMap />

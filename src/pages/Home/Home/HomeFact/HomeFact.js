@@ -11,7 +11,7 @@ const HomeFact = () => {
                   <div className="col-xl-6 col-lg-6 col-md-10">
                      <div className="section-title pos-rel mb-45">
                         <div className="section-text section-text-white pos-rel">
-                           <h5>We are available 24/7</h5>
+                           <h5>{t("available_24_7_key")}</h5>
                            <h1 className="white-color">{t('always_ready_challenge_key')}</h1>
                         </div>
                      </div>
@@ -23,13 +23,13 @@ const HomeFact = () => {
                      <div className="cta-satisfied">
                         <div className="single-satisfied mb-50">
                            <h1>1M+</h1>
-                           <h5> <i className="fas fa-user"></i> Satisfied Patients</h5>
+                           <h5> <i className="fas fa-user"></i>{t("satisfied_patients_key")}</h5>
                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
                               aliqua.</p>
                         </div>
                         <div className="single-satisfied mb-50">
                            <h1>100+</h1>
-                           <h5><i className="far fa-thumbs-up"></i> World Awards</h5>
+                           <h5><i className="far fa-thumbs-up"></i>{t("world_awards_key")}</h5>
                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
                               aliqua.</p>
                         </div>

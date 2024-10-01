@@ -30,12 +30,12 @@ const DoctorOneTeamArea = () => {
                         </div>
                     </div>
                     <div className="row">
-                        <HomeSingleTeam image="1" title="Rosalina D. Williamson" subtitle="Founder" />
-                        <HomeSingleTeam image="2" title="Diconda PIran Will" subtitle="dentist" />
-                        <HomeSingleTeam image="3" title="Hulk M. Kenbon" subtitle="neurologist" />
-                        <HomeSingleTeam image="4" title="Haliam Z. Dicolaz" subtitle="Consultant" />
-                        <HomeSingleTeam image="5" title="Nicolas D. Case" subtitle="dentist" />
-                        <HomeSingleTeam image="6" title="Phumdon H. Norman" subtitle="neurologist" />
+                        <HomeSingleTeam image="1" title="Rosalina D. Williamson" subtitle={t("founder_key")} />
+                        <HomeSingleTeam image="2" title="Diconda PIran Will" subtitle={t("dentist_key")} />
+                        <HomeSingleTeam image="3" title="Hulk M. Kenbon" subtitle={t("neurologist_key")} />
+                        <HomeSingleTeam image="4" title="Haliam Z. Dicolaz" subtitle={t("consultant_key")} />
+                        <HomeSingleTeam image="5" title="Nicolas D. Case" subtitle={t("dentist_key")} />
+                        <HomeSingleTeam image="6" title="Phumdon H. Norman" subtitle={t("neurologist_key")} />
                     </div>
                 </div>
             </section>
