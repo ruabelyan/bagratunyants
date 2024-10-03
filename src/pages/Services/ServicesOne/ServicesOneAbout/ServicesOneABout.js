@@ -32,8 +32,8 @@ const ServicesOneABout = () => {
                    </div>
                 </div>
                 <div className="row">
-                  <h3>{t("services_description_key")}</h3>
-                  <HomeSIngleService icon="1" title={t('therapeutic_key')} />
+                  <h3>{t("departments_key")}</h3>
+                  <HomeSIngleService  icon="1" title={t('therapeutic_key')} />
                   <HomeSIngleService icon="2" title={t('pediatric_key')} />
                   <HomeSIngleService icon="3" title={t('womens_consultation_key')} />
                   <h3>{t("diagnostic_services_key")}</h3>

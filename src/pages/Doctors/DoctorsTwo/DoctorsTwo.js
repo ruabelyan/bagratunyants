@@ -11,7 +11,7 @@ const DoctorsTwo = () => {
         <>
             <HomeHeader/>
             <CommonPageHeader title="Doctor 02" subtitle="Doctor" />
-            <DoctorsTwoTeamArea/>
+            {/* <DoctorsTwoTeamArea/> */}
             <HomeFact />
             <CounterArea/>
             <Footer/>

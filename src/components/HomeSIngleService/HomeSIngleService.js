@@ -1,7 +1,7 @@
 import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
 
-const HomeSIngleService = ({ icon, title, border_class }) => {
+const HomeSIngleService = ({ icon, title, border_class,description }) => {
    const { t } = useTranslation();
    return (
       <>
@@ -12,8 +12,8 @@ const HomeSIngleService = ({ icon, title, border_class }) => {
                </div>
                <div className="service-content">
                   <h3><Link to="/servicesDetails">{title}</Link></h3>
-                  <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
-                  <Link className="service-link" to="/servicesDetails">{t('read_more_key')}</Link>
+                  <p>{description}</p>
+                  {/* <Link className="service-link" to="/servicesDetails">{t('read_more_key')}</Link> */}
                </div>
             </div>
          </div>

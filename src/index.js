@@ -127,9 +127,10 @@ i18n
       hy: {
         translation: {
           "services_description_key": "Ծառայությունների բնութագիրը",
+          "departments_key": "Բաժանմունքներ",
           "home_key": "Գլխավոր",
-          "department_key": "Ծառայություններ",
-          "all_department_key": "Ծառայություններ",
+          "department_key": "Բաժանմունքներ",
+          "all_department_key": "Բաժանմունքներ",
           "doctors_key": "Բժիշկներ",
           "about_key": "Մեր մասին",
           "contact_key": "Կապ մեզ հետ",
@@ -138,8 +139,8 @@ i18n
           "hero_best_care": "Որակյալ բժշկական ծառայություններ",
           "hero_description": "Լորեմ իպսում դոլոր սիտ ամետ, կոնսեկտետուր ադիպիսցինգ էլիտ, սեդ դո էյուզմոդ տեմպոր ինցիդիդունթ_ut լաբորե և դոլորե մագնա ալիքուա։",
           "therapeutic_key": "Թերապևտիկ",
-          "pediatric_key": "Մանկաբուժական",
-          "womens_consultation_key": "Կանանց խորհրդատվություն",
+          "pediatric_key": "Մանկական",
+          "womens_consultation_key": "Վերականգնողական",
           "physiotherapy_key": "Ֆիզիոթերապևտիկ",
           "daytime_hospital_key": "Ցերեկային ստացիոնար",
           "medical_physical_education_key": "Բուժական ֆիզկուլտուրա",

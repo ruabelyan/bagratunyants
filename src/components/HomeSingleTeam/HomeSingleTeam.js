@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-const HomeSingleTeam = ({image,title,subtitle}) => {
+const HomeSingleTeam = ({image,title,subtitle,imgUrl}) => {
    return (
       <>
          <div className="col-xl-4 col-lg-4 col-md-6">
