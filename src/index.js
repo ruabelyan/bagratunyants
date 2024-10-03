@@ -201,7 +201,7 @@ i18n
           "allergic_issue_key": "Ալերգիկ խնդիր",
           "neurology_surgery_key": "Նյարդաբանական վիրաբուժություն",
           "blood_cancer_key": "Արյան քաղցկեղ",
-          "stay_at_home_key": "Արդյո՞ք նախընտրում եք մնալ տանը, քան գնալ բժշկական հաստատություն:",
+          "stay_at_home_key": "Արդյո՞ք նախընտրում եք մնալ տանը:",
           "x_ray_cabinet_key": "Ռենտգեն կաբինետ",
           "ultrasound_exam_cabinet_key": "Ուլտրաձայնային հետազոտության կաբինետ",
           "electromyography_key": "Էլեկտրոնեյրոմիագրաֆիա",

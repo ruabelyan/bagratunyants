@@ -1,5 +1,6 @@
 import HomeSIngleService from '../../../../components/HomeSIngleService/HomeSIngleService';
 import { useTranslation } from 'react-i18next';
+import HomeFiveMedicalTab from '../../../HomeFive/HomeFiveMedicalTab/HomeFiveMedicalTab';
 
 const HomeServices = () => {
    const { t } = useTranslation();

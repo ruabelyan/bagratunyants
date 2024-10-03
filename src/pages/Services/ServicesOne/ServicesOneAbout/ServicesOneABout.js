@@ -1,5 +1,7 @@
 import HomeSIngleService from '../../../../components/HomeSIngleService/HomeSIngleService';
 import { useTranslation } from 'react-i18next';
+import SingleTeam from '../../../../components/SingleTeam/SingleTeam';
+import HomeFiveMedicalTab from '../../../HomeFive/HomeFiveMedicalTab/HomeFiveMedicalTab';
 
 const ServicesOneABout = () => {
    const { t } = useTranslation();
@@ -23,15 +25,11 @@ const ServicesOneABout = () => {
                      <div className="facalty-text mb-50">
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
                            aliqua. Ut enim ad minim veniam, quis nost rud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                           Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                           nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
-                           qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde
-                           omnis iste natus error sit voluptatem accusantium.</p>
+                           Duis aute irure dolor in reprehenderit.</p>
                      </div>
                   </div>
                </div>
-
-               <div className="container">
+               {/* <div className="container">
                   <div className="row">
                      <div className="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
                         <div className="section-title text-center pos-rel mb-75">
@@ -96,7 +94,12 @@ const ServicesOneABout = () => {
                      <HomeSIngleService icon="1" title={t('therapeutic_key')} />
                      <HomeSIngleService icon="2" title={t('pediatric_key')} />
                   </div>
-               </div>
+               </div> */}
+
+                  <div className='container mt-5'>
+                  <HomeFiveMedicalTab/>
+                  </div>
+
             </div>
          </section>
       </>

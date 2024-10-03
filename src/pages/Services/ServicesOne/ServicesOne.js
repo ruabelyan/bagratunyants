@@ -13,7 +13,7 @@ const ServicesOne = () => {
          <CommonPageHeader title={t('department_key')} subtitle={t('department_key')} />
          <ServicesOneABout />
          {/* <CalculateArea /> */}
-         <ServicesOneHiringArea />
+         {/* <ServicesOneHiringArea /> */}
          <Footer />
       </>
    );

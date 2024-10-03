@@ -30,8 +30,8 @@ const DoctorOneTeamArea = () => {
                         </div>
                     </div>
                     <div className="row">
-                        <HomeSingleTeam image="1" title="Rosalina D. Williamson" subtitle={t("founder_key")} />
-                        <HomeSingleTeam image="2" title="Diconda PIran Will" subtitle={t("dentist_key")} />
+                        <HomeSingleTeam image="1" title="Ռուզան Դուրգարյան" subtitle={t("founder_key")} />
+                        <HomeSingleTeam image="2" title="Արմինե Ջանոյան" subtitle={t("dentist_key")} />
                         <HomeSingleTeam image="3" title="Hulk M. Kenbon" subtitle={t("neurologist_key")} />
                         <HomeSingleTeam image="4" title="Haliam Z. Dicolaz" subtitle={t("consultant_key")} />
                         <HomeSingleTeam image="5" title="Nicolas D. Case" subtitle={t("dentist_key")} />
