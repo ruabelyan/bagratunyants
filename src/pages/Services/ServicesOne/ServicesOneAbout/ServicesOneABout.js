@@ -1,6 +1,4 @@
-import HomeSIngleService from '../../../../components/HomeSIngleService/HomeSIngleService';
 import { useTranslation } from 'react-i18next';
-import SingleTeam from '../../../../components/SingleTeam/SingleTeam';
 import HomeFiveMedicalTab from '../../../HomeFive/HomeFiveMedicalTab/HomeFiveMedicalTab';
 
 const ServicesOneABout = () => {
@@ -29,73 +27,6 @@ const ServicesOneABout = () => {
                      </div>
                   </div>
                </div>
-               {/* <div className="container">
-                  <div className="row">
-                     <div className="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
-                        <div className="section-title text-center pos-rel mb-75">
-                           <div className="section-icon">
-                              <img className="section-back-icon" src="img/section/section-back-icon.png" alt="" />
-                           </div>
-                           <div className="section-text pos-rel home_ser_title">
-                              <h2>{t('Շենգավիթ ստորաբաժանում')}</h2>
-                           </div>
-                           <div className="section-line pos-rel">
-                              <img src="img/shape/section-title-line.png" alt="" />
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-                  <div className="row">
-                     <HomeSIngleService icon="1" title={t('therapeutic_key')} />
-                     <HomeSIngleService icon="2" title={t('pediatric_key')} />
-                     <HomeSIngleService icon="3" title={t('womens_consultation_key')} />
-                  </div>
-               </div>
-               <div className="container">
-                  <div className="row">
-                     <div className="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
-                        <div className="section-title text-center pos-rel mb-75">
-                           <div className="section-icon">
-                              <img className="section-back-icon" src="img/section/section-back-icon.png" alt="" />
-                           </div>
-                           <div className="section-text pos-rel home_ser_title">
-                              <h2>{t('Նորագավիթ ստորաբաժանում')}</h2>
-                           </div>
-                           <div className="section-line pos-rel">
-                              <img src="img/shape/section-title-line.png" alt="" />
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-                  <div className="row">
-                     <HomeSIngleService icon="1" title={t('therapeutic_key')} />
-                     <HomeSIngleService icon="2" title={t('pediatric_key')} />
-                     <HomeSIngleService icon="3" title={t('Նեղ մասնագիտական բաժանմունք')} />
-                     <HomeSIngleService icon="3" title={t('Լաբորատոր-գործիքային ախտորոշիչ բաժանմունք')} />
-                  </div>
-               </div>
-               <div className="container">
-                  <div className="row">
-                     <div className="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
-                        <div className="section-title text-center pos-rel mb-75">
-                           <div className="section-icon">
-                              <img className="section-back-icon" src="img/section/section-back-icon.png" alt="" />
-                           </div>
-                           <div className="section-text pos-rel home_ser_title">
-                              <h2>{t('Նոր Խարբերդ ստորաբաժանում')}</h2>
-                           </div>
-                           <div className="section-line pos-rel">
-                              <img src="img/shape/section-title-line.png" alt="" />
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-                  <div className="row">
-                     <HomeSIngleService icon="1" title={t('therapeutic_key')} />
-                     <HomeSIngleService icon="2" title={t('pediatric_key')} />
-                  </div>
-               </div> */}
-
                   <div className='container mt-5'>
                   <HomeFiveMedicalTab/>
                   </div>
