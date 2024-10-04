@@ -30,8 +30,8 @@ const HomeOurTeam = () => {
                   </div>
                </div>
                <div className="row">
-                  <HomeSingleTeam image="1"  name="Ռուզան Դուրգարյան" title={t("տնօրեն")}  />
-                  <HomeSingleTeam image="2"  name="Արմինե Ջանոյան" title={t("փորձաքննության գծով տնօրենի տեղակալ")}/>
+                  <HomeSingleTeam image="30" name="Ռուզան Դուրգարյան" title={t("տնօրեն")}  />
+                  <HomeSingleTeam image="31" name="Արմինե Ջանոյան" title={t("փորձաքննության գծով տնօրենի տեղակալ")}/>
 
                </div>
             </div>

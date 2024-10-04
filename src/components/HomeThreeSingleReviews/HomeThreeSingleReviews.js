@@ -1,6 +1,6 @@
 import React from 'react';
 
-const HomeThreeSingleReviews = ({image,name}) => {
+const HomeThreeSingleReviews = ({image,name,text}) => {
     return (
         <>
             <div className="item">
@@ -15,10 +15,7 @@ const HomeThreeSingleReviews = ({image,name}) => {
                         </ul>
                     </div>
                     <div className="members-text">
-                        <p>Lorem ipsum dolor sit amet, coning
-                            ctetur adipisicing elit, sed do it on
-                            eiusmod tempor incididunt me
-                            ut labore et dolore.</p>
+                        <p>{!text ?' Lorem ipsum dolor sit amet, coning ctetur adipisicing elit, sed do it on eiusmod tempor incididunt me ut labore et dolore.' : text}</p>
                     </div>
                     <div className="about-author d-flex align-items-center">
                         <div className="author-ava">

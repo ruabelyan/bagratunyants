@@ -38,7 +38,7 @@ const DoctorOneTeamArea = () => {
                         <HomeSingleTeam image="6" title="Բաբայան" />
                         <HomeSingleTeam image="7" title="Բաբայան-բժիշկ-լաբորանտ" />
                         <HomeSingleTeam image="8" title="Բաբայան" />
-                        <HomeSingleTeam image="9" title="Բարսելյանց-բժիշկ էխոսկոպիստJPG" />
+                        <HomeSingleTeam image="9" title="Բարսելյանց-բժիշկ էխոսկոպիստ" />
                         <HomeSingleTeam image="10" title="Գալաջյան" />
                         <HomeSingleTeam image="11" title="Գևորգյան-ռենտգենոլոգ" />
                         <HomeSingleTeam image="12" title="Գրիգորյան" />

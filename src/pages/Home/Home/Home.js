@@ -6,6 +6,8 @@ import HomeOurTeam from './HomeOurTeam/HomeOurTeam';
 import HomeServices from './HomeServices/HomeServices';
 import HomeBlogs from './HomeBlogs/HomeBlogs';
 import HomeFourPhotoGallery from '../../HomeFour/HomeFourPhotoGallery/HomeFourPhotoGallery';
+import HomeThreeSingleReviews from '../../../components/HomeThreeSingleReviews/HomeThreeSingleReviews';
+import HomeThreeMembership from '../../HomeThree/HomeThreeMembership/HomeThreeMembership';
 
 
 const Home = () => {
@@ -15,6 +17,7 @@ const Home = () => {
             <HomeHeroSection />
             <HomeAboutArea />
             <HomeServices />
+            <HomeThreeMembership/>
             <HomeFourPhotoGallery/>
             <HomeOurTeam />
             {/* <HomeFact /> */}

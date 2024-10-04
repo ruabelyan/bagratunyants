@@ -31,7 +31,7 @@ const HomeAboutArea = () => {
                         </div>
                         <div className="about-author d-flex align-items-center">
                            <div className="author-ava">
-                              <img src="img/about/author-ava.png" alt="" />
+                              <img src="img/about/author-ava.jpg" alt="" />
                            </div>
                            <div className="author-desination">
                               <h4>{t("ruzanna_durgharyan_key")}</h4>

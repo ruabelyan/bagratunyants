@@ -27,7 +27,7 @@ const HomeServices = () => {
                   <HomeSIngleService icon="1" title={t('therapeutic_key')} />
                   <HomeSIngleService icon="2" title={t('pediatric_key')} />
                   <HomeSIngleService icon="3" title={t('Նեղ մասնագիտական բաժանմունք')} />
-                  <HomeSIngleService icon="3" title={t('Լաբորատոր-գործիքային ախտորոշիչ բաժանմունք')} />
+                  <HomeSIngleService icon="4" title={t('Լաբորատոր-գործիքային ախտորոշիչ բաժանմունք')} />
                </div>
             </div>
 

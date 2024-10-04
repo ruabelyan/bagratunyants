@@ -7,7 +7,7 @@ const ServicesOneABout = () => {
       <>
          <section className="about-area pt-120 pb-90">
             <div className="container">
-               <div className="row ">
+               {/* <div className="row ">
                   <div className="col-xl-6 col-lg-6 col-md-12">
                      <div className="section-title section-title-m-0 pos-rel mb-50 text-end">
                         <div className="section-icon">
@@ -26,7 +26,7 @@ const ServicesOneABout = () => {
                            Duis aute irure dolor in reprehenderit.</p>
                      </div>
                   </div>
-               </div>
+               </div> */}
                   <div className='container mt-5'>
                   <HomeFiveMedicalTab/>
                   </div>
