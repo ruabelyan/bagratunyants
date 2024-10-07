@@ -56,7 +56,7 @@ function App() {
             <Route path="/homeFive" element={<HomeFive />} />
             <Route path="/services" element={<ServicesOne />} />
             <Route path="/servicesTwo" element={<ServicesTwo />} />
-            <Route path="/servicesDetails" element={<ServicesDetails />} />
+            <Route path="/servicesDetails/:id" element={<ServicesDetails />} />
             <Route path="/doctors" element={<DoctorsOne />} />
             <Route path="/doctorsTwo" element={<DoctorsTwo />} />
             <Route path="/doctorDetails" element={<DoctorDetails />} />
@@ -71,7 +71,7 @@ function App() {
             <Route path="/blogLeftSideBar" element={<BlogLeftSideBar />} />
             <Route path="/blogNoSideBar" element={<BlogNoSideBar />} />
             <Route path="/blogTwoColumn" element={<BlogTwoColumn />} />
-            <Route path="/blogTwoMasonry" element={<BlogTwoColumnMasonry/>} />
+            <Route path="/blogTwoMasonry" element={<BlogTwoColumnMasonry />} />
             <Route path="/blogThreeColumn" element={<BlogThreeColumn />} />
             <Route path="/blogThreeColMasonry" element={<BlogThreeColMasonry />} />
             <Route path="/blogDetails" element={<BlogDetails />} />

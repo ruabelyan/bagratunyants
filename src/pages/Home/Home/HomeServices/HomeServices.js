@@ -1,9 +1,9 @@
 import HomeSIngleService from '../../../../components/HomeSIngleService/HomeSIngleService';
 import { useTranslation } from 'react-i18next';
-import HomeFiveMedicalTab from '../../../HomeFive/HomeFiveMedicalTab/HomeFiveMedicalTab';
 
 const HomeServices = () => {
    const { t } = useTranslation();
+
    return (
       <>
          <section className="servcies-area gray-bg pt-115 pb-90">

@@ -5,7 +5,7 @@ import Sidebar from '../../../../components/Shared/Sidebar/Sidebar';
 import useGlobalContext from '../../../../hooks/useGlobalContext';
 import { useTranslation } from 'react-i18next';
 
-const HomeHeader = () => {
+const HomeHeader = ({ logo }) => {
    const [show, setShow] = useState(false);
    const handleClose = () => setShow(false);
    const handleShow = () => setShow(true);
@@ -38,7 +38,7 @@ const HomeHeader = () => {
                   <div className="row align-items-center">
                      <div className="col-xl-3 col-lg-3 col-md-6 col-6 d-flex align-items-center">
                         <div className="logo logo-circle pos-rel">
-                           <Link to="/"><img style={{ maxWidth: '170px' }} src="img/logo/logo.png" alt="" /></Link>
+                           <Link to="/"><img style={{ maxWidth: '170px' }} src={logo || "img/logo/logo.png"} alt="" /></Link>
                         </div>
                      </div>
                      <div className="col-xl-9 col-lg-9 col-md-6 col-6">

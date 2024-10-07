@@ -1,13 +1,13 @@
 import { Link } from 'react-router-dom';
 
-const DoctorsTwoSingleTeam = ({ image, name, title }) => {
-    console.log('name', name)
+const DoctorsTwoSingleTeam = ({ image, name, title, imgUrl }) => {
+    console.log('image', image)
     return (
         <>
             <div className="col-xl-4 col-lg-4 col-md-6">
                 <div className="team-wrapper team-box-2 text-center mb-30">
                     <div className="team-thumb">
-                        <img style={{ maxWidth: 300, maxHeight: 300 }} src={`img/doctors/${image}.jpg`} alt="" />
+                        <img style={{ maxWidth: 300, maxHeight: 300 }} src={imgUrl ? imgUrl : `img/doctors/${image}.jpg`} alt="" />
                     </div>
                     <div className="team-member-info mt-35 mb-25">
                         <h3><Link to="/doctorDetails">{name}</Link></h3>

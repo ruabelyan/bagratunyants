@@ -4,9 +4,7 @@ import HomeHeader from './HomeHeader/HomeHeader';
 import HomeHeroSection from './HomeHeroSection/HomeHeroSection';
 import HomeOurTeam from './HomeOurTeam/HomeOurTeam';
 import HomeServices from './HomeServices/HomeServices';
-import HomeBlogs from './HomeBlogs/HomeBlogs';
 import HomeFourPhotoGallery from '../../HomeFour/HomeFourPhotoGallery/HomeFourPhotoGallery';
-import HomeThreeSingleReviews from '../../../components/HomeThreeSingleReviews/HomeThreeSingleReviews';
 import HomeThreeMembership from '../../HomeThree/HomeThreeMembership/HomeThreeMembership';
 
 
