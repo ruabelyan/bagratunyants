@@ -1,6 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import Sidebar from '../../../../components/Shared/Sidebar/Sidebar';
 import useGlobalContext from '../../../../hooks/useGlobalContext';
 import { useTranslation } from 'react-i18next';
@@ -12,6 +12,8 @@ const HomeHeader = ({ logo }) => {
    const { stickyMenu } = useGlobalContext();
    const { t, i18n } = useTranslation();
 
+   const params = useLocation();
+   console.log('params', params.pathname)
    return (
       <>
          <header>
@@ -34,7 +36,7 @@ const HomeHeader = ({ logo }) => {
             </div>
 
             <div className={stickyMenu ? "header-menu-area sticky_menu" : "header-menu-area"}>
-               <div className="container menu_wrapper">
+               <div style={{ maxWidth: '1150px' }} className="container menu_wrapper">
                   <div className="row align-items-center">
                      <div className="col-xl-3 col-lg-3 col-md-6 col-6 d-flex align-items-center">
                         <div className="logo logo-circle pos-rel">
@@ -80,13 +82,21 @@ const HomeHeader = ({ logo }) => {
                            </div>
                         </div>
                         <div className="header__menu f-right">
+
                            <nav id="mobile-menu">
                               <ul>
-                                 <li><Link to="/">{t('home_key')}</Link></li>
-                                 <li><Link to="/services">{t('department_key')}</Link></li>
-                                 <li><Link to="/doctors">{t('doctors_key')}</Link></li>
-                                 <li><Link to="/about">{t('about_key')}</Link></li>
-                                 <li><Link to="/contact">{t('contact_key')}</Link></li>
+                                 <li><Link style={{ fontWeight: params.pathname === '/' ? '700' : '400' }} to="/">{t('home_key')}</Link></li>
+                                 <li style={{ fontWeight: (params.pathname === '/services' || params.pathname === '/doctors') ? '700' : '400' }}>{t('department_key')}
+                                    <ul className="submenu">
+                                       <li><Link to="/services">{t('department_key')}</Link></li>
+                                       <li><Link to="/doctors">{t('doctors_key')}</Link></li>
+                                    </ul>
+                                 </li>
+                                 {/* <li><Link to="/services">{t('department_key')}</Link></li> */}
+                                 <li><Link to="/aaa">{t('Ծառայություններ')}</Link></li>
+                                 <li><Link style={{ fontWeight: params.pathname === '/about' ? '700' : '400' }} to="/about">{t('about_key')}</Link></li>
+                                 <li><Link style={{ fontWeight: params.pathname === '/contact' ? '700' : '400' }} to="/contact">{t('contact_key')}</Link></li>
+
                                  {/* <li><Link to="/appoinment">{t('appointment_key')}</Link></li> */}
                               </ul>
                            </nav>
