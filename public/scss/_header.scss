@@ -108,12 +108,12 @@
  .header__menu ul li ul.submenu {
      position: absolute;
      background: #ffffff;
-     width: 250px;
+     width: fit-content;
      top: 110%;
      left: 0;
      opacity: 0;
      visibility: hidden;
-     padding: 25px 0;
+     padding: 5px 0;
      -webkit-transition: all 0.3s ease-out 0s;
      -moz-transition: all 0.3s ease-out 0s;
      -ms-transition: all 0.3s ease-out 0s;
@@ -140,7 +140,7 @@
      display: block;
 }
  .header__menu ul li ul.submenu li a {
-     padding: 11px 30px;
+     padding: 11px 15px;
 }
  .header__menu.header-menu-white ul li ul.submenu li:hover > a {
      color: #952d3e;

@@ -120,7 +120,7 @@ i18n
           "your_subject_key": "Your Subject",
           "your_message_key": "Your Message",
           "get_action_key": "Get Action",
-
+          "price_list_key": "Price list"
 
         },
       },
@@ -228,7 +228,8 @@ i18n
           "your_phone_key": "հեռախոսահամար",
           "your_subject_key": "Թեմա",
           "your_message_key": "Հաղորդագրություն",
-          "get_action_key": "ՈՒղարկել"
+          "get_action_key": "ՈՒղարկել",
+          "price_list_key": "Գնացուցակ"
         }
       },
       ru: {
@@ -332,7 +333,8 @@ i18n
           "your_phone_key": "Ваш телефон",
           "your_subject_key": "Ваш предмет",
           "your_message_key": "Ваше сообщение",
-          "get_action_key": "Получить действие"
+          "get_action_key": "Получить действие",
+          "price_list_key": "key"
         }
       }
     },

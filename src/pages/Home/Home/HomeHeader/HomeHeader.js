@@ -93,9 +93,18 @@ const HomeHeader = ({ logo }) => {
                                     </ul>
                                  </li>
                                  {/* <li><Link to="/services">{t('department_key')}</Link></li> */}
-                                 <li><Link to="/aaa">{t('Ծառայություններ')}</Link></li>
+                                 <li style={{ fontWeight: (params.pathname === '/services' || params.pathname === '/doctors') ? '700' : '400' }}>{t('Ծառայություններ')}
+                                    <ul className="submenu">
+                                       <li><Link to="/services">{t('Ծառայություններ')}</Link></li>
+                                       <li><Link to="/pricelist">{t('price_list_key')}</Link></li>
+                                    </ul>
+                                 </li>
+                                 {/* <li><Link to="/aaa">{t('Ծառայություններ')}</Link></li> */}
                                  <li><Link style={{ fontWeight: params.pathname === '/about' ? '700' : '400' }} to="/about">{t('about_key')}</Link></li>
                                  <li><Link style={{ fontWeight: params.pathname === '/contact' ? '700' : '400' }} to="/contact">{t('contact_key')}</Link></li>
+                                 {/* <li><Link style={{ fontWeight: params.pathname === '/pricelist' ? '700' : '400' }} to="/pricelist">{t('price_list_key')}</Link></li> */}
+
+
 
                                  {/* <li><Link to="/appoinment">{t('appointment_key')}</Link></li> */}
                               </ul>

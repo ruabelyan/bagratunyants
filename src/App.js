@@ -39,6 +39,7 @@ import WishList from './pages/wishList/WishList';
 import HomeFive from './pages/HomeFive/HomeFive';
 import './App.css';
 import NotFound from './pages/NotFound/NotFound';
+import PriceList from './pages/PriceList/PriceList';
 
 
 function App() {
@@ -87,6 +88,7 @@ function App() {
             <Route path="/contact" element={<Contact />} />
             <Route path="/notMatch" element={<NotFound />} />
             <Route path="*" element={<NotFound />} />
+            <Route path="/pricelist" element={<PriceList />} />
           </Routes>
         </BrowserRouter>
       </AllContext>
