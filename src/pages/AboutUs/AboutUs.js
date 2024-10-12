@@ -3,7 +3,7 @@ import Footer from '../../components/Shared/Footer';
 import HomeFact from '../Home/Home/HomeFact/HomeFact';
 import HomeHeader from '../Home/Home/HomeHeader/HomeHeader';
 import AboutArea from './AboutArea/AboutArea';
-import AboutTestimonial from './AboutTestimonial/AboutTestimonial';
+import AboutAnalysis from './AboutAnalysis/AboutAnalysis';
 import { useTranslation } from 'react-i18next';
 
 
@@ -18,8 +18,8 @@ const AboutUs = () => {
          {/* <AboutCounter /> */}
          {/* <AboutAppoinment /> */}
          {/* <HomeOurTeam/> */}
-         <HomeFact />
-         <AboutTestimonial />
+         {/* <HomeFact /> */}
+         {/* <AboutTestimonial /> */}
          {/* <AboutAnalysis /> */}
          <Footer />
       </>

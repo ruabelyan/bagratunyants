@@ -36,8 +36,8 @@ const HomeHeader = ({ logo }) => {
             </div>
 
             <div className={stickyMenu ? "header-menu-area sticky_menu" : "header-menu-area"}>
-               <div style={{ maxWidth: '1150px' }} className="container menu_wrapper">
-                  <div className="row align-items-center">
+               <div style={{ maxWidth: '1297px' }} className="container menu_wrapper">
+                  <div style={{ justifyContent: 'space-between' }} className="row align-items-center">
                      <div className="col-xl-3 col-lg-3 col-md-6 col-6 d-flex align-items-center">
                         <div className="logo logo-circle pos-rel">
                            <Link to="/"><img style={{ maxWidth: '170px' }} src={logo || "img/logo/logo.png"} alt="" /></Link>
@@ -46,14 +46,14 @@ const HomeHeader = ({ logo }) => {
                      <div className="col-xl-9 col-lg-9 col-md-6 col-6">
                         <div className="header-right f-right">
                            <div className="header-lang f-right pos-rel d-none d-lg-block">
-                              <div className="lang-icon">
+                              <div className="lang-icon d-flex">
                                  <img height={30} width={30}
                                     src={i18n.language === 'hy' ?
                                        "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Flag_of_Armenia.svg/2880px-Flag_of_Armenia.svg.png"
                                        : i18n.language === 'ru' ? "https://upload.wikimedia.org/wikipedia/commons/f/f3/Flag_of_Russia.svg" : "https://upload.wikimedia.org/wikipedia/commons/4/42/Flag_of_the_United_Kingdom.png"
                                     }
                                     alt="" />
-                                 <span>{i18n.language?.toLocaleUpperCase()}<i className="fas fa-angle-down"></i></span>
+                                 <span className='d-flex align-items-center'>{i18n.language?.toLocaleUpperCase()}<i className="fas fa-angle-down"></i></span>
                               </div>
                               <ul className="header-lang-list">
                                  <li><a onClick={() => {
@@ -93,16 +93,17 @@ const HomeHeader = ({ logo }) => {
                                     </ul>
                                  </li>
                                  {/* <li><Link to="/services">{t('department_key')}</Link></li> */}
-                                 <li style={{ fontWeight: (params.pathname === '/services' || params.pathname === '/doctors') ? '700' : '400' }}>{t('Ծառայություններ')}
+                                 {/* <li style={{ fontWeight: (params.pathname === '/services' || params.pathname === '/pricelist') ? '700' : '400' }}>{t('Ծառայություններ')}
                                     <ul className="submenu">
                                        <li><Link to="/services">{t('Ծառայություններ')}</Link></li>
                                        <li><Link to="/pricelist">{t('price_list_key')}</Link></li>
                                     </ul>
-                                 </li>
+                                 </li> */}
+
                                  {/* <li><Link to="/aaa">{t('Ծառայություններ')}</Link></li> */}
                                  <li><Link style={{ fontWeight: params.pathname === '/about' ? '700' : '400' }} to="/about">{t('about_key')}</Link></li>
                                  <li><Link style={{ fontWeight: params.pathname === '/contact' ? '700' : '400' }} to="/contact">{t('contact_key')}</Link></li>
-                                 {/* <li><Link style={{ fontWeight: params.pathname === '/pricelist' ? '700' : '400' }} to="/pricelist">{t('price_list_key')}</Link></li> */}
+                                 <li><Link style={{ fontWeight: params.pathname === '/pricelist' ? '700' : '400' }} to="/pricelist">{t('price_list_key')}</Link></li>
 
 
 

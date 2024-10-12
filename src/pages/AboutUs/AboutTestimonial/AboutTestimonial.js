@@ -13,14 +13,14 @@ const AboutTestimonial = () => {
                   <div className="col-xl-6 offset-xl-3 col-lg-8 offset-lg-2 col-md-10 offset-md-1">
                      <div className="section-title text-center pos-rel mb-40">
                         <div className="section-icon">
-                           <img className="section-back-icon" src="img/section/section-back-icon.png" alt=""/>
+                           <img className="section-back-icon" src="img/section/section-back-icon.png" alt="" />
                         </div>
                         <div className="section-text pos-rel">
                            <h5>{t("testimonials_key")}</h5>
                            <h1>{t("our_clients_say_about_us_key")}</h1>
                         </div>
                         <div className="section-line pos-rel">
-                           <img src="img/shape/section-title-line.png" alt=""/>
+                           <img src="img/shape/section-title-line.png" alt="" />
                         </div>
                      </div>
                   </div>
@@ -31,10 +31,10 @@ const AboutTestimonial = () => {
                         <div className="testi-box text-center pos-rel">
                            <div className="testi-content pos-rel">
                               <div className="testi-bg-icon">
-                                 <img src="img/testimonials/testi-box-bg.png" alt=""/>
+                                 <img src="img/testimonials/testi-box-bg.png" alt="" />
                               </div>
                               <div className="testi-quato-icon">
-                                 <img src="img/testimonials/testi-quato-icon.png" alt=""/>
+                                 <img src="img/testimonials/testi-quato-icon.png" alt="" />
                               </div>
                               <div className="text-text-boxx">
                                  <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed
@@ -46,12 +46,12 @@ const AboutTestimonial = () => {
                            </div>
                            <div className="testi-author">
                               <h2 className="testi-author-title">Արմեն Գրիգորյան</h2>
-                              {/* <span className="testi-author-desination">founder, uithemes</span> */}
+                              <span className="testi-author-desination">founder, uithemes</span>
                               <span className="testi-author-desination">{t("founder_key")}</span>
 
                            </div>
                            <div className="test-author-icon">
-                              <img src="img/testimonials/testi-author-icon.png" alt=""/>
+                              <img src="img/testimonials/testi-author-icon.png" alt="" />
                            </div>
                         </div>
                      </div>

@@ -334,7 +334,7 @@ i18n
           "your_subject_key": "Ваш предмет",
           "your_message_key": "Ваше сообщение",
           "get_action_key": "Получить действие",
-          "price_list_key": "key"
+          "price_list_key": "Прайс-лист"
         }
       }
     },

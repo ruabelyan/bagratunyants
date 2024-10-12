@@ -30,34 +30,34 @@ const DoctorOneTeamArea = () => {
                         </div>
                     </div>
                     <div className="row">
-                        <HomeSingleTeam image="1" title="Ադամյան" />
-                        <HomeSingleTeam image="2" title="Ասոյան-մաշկաբան" />
+                        <HomeSingleTeam image="1" title="Վալերի Ադամյան" />
+                        <HomeSingleTeam image="2" title="Աննա Ասոյան" />
                         <HomeSingleTeam image="3" title="Աստղիկ Դավթյան" />
-                        <HomeSingleTeam image="4" title="Ավանեսովա-մանկաբարձ գինեկոլոգ" />
-                        <HomeSingleTeam image="5" title="Ավետիկյան-սրտաբան" />
-                        <HomeSingleTeam image="6" title="Բաբայան" />
-                        <HomeSingleTeam image="7" title="Բաբայան-բժիշկ-լաբորանտ" />
-                        <HomeSingleTeam image="8" title="Բաբայան" />
-                        <HomeSingleTeam image="9" title="Բարսելյանց-բժիշկ էխոսկոպիստ" />
-                        <HomeSingleTeam image="10" title="Գալաջյան" />
-                        <HomeSingleTeam image="11" title="Գևորգյան-ռենտգենոլոգ" />
-                        <HomeSingleTeam image="12" title="Գրիգորյան" />
-                        <HomeSingleTeam image="13" title="Երվանդյան" />
-                        <HomeSingleTeam image="14" title="Զոհրաբյան" />
-                        <HomeSingleTeam image="15" title="Իգիթյան" />
-                        <HomeSingleTeam image="16" title="Կսպոյան-քիթ-կոկորդ-ականջաբան" />
-                        <HomeSingleTeam image="17" title="Հովակիմյան" />
-                        <HomeSingleTeam image="18" title="Հովհաննիսյան" />
-                        <HomeSingleTeam image="19" title="Մանուկյան" />
-                        <HomeSingleTeam image="20" title="Մելիք-Փաշայան" />
-                        <HomeSingleTeam image="21" title="Միդուրյան" />
-                        <HomeSingleTeam image="22" title="Միրազիզյան-մերսող" />
-                        <HomeSingleTeam image="23" title="Մկրտչյան-բժիշկ էխոսկոպիստ" />
+                        <HomeSingleTeam image="4" title="Աննա Ավանեսովա" />
+                        <HomeSingleTeam image="5" title="Գայանե Ավետիկյան" />
+                        <HomeSingleTeam image="6" title="Գոհար Բաբայան" />
+                        <HomeSingleTeam image="7" title="Մարինե Բաբայան" />
+                        <HomeSingleTeam image="8" title="Գոհար Բաբայան" />
+                        <HomeSingleTeam image="9" title="Գայանե Բարսելյանց" />
+                        <HomeSingleTeam image="10" title="Աննա Գալաջյան" />
+                        <HomeSingleTeam image="11" title="Սուսան Գևորգյան" />
+                        <HomeSingleTeam image="12" title="Էմմա Գրիգորյան" />
+                        <HomeSingleTeam image="13" title="Հասմիկ Երվանդյան" />
+                        <HomeSingleTeam image="14" title="Ջուլիետտա Զոհրաբյան" />
+                        <HomeSingleTeam image="15" title="Մարինե Իգիթյան" />
+                        <HomeSingleTeam image="16" title="Ստեփան Կսպոյան" />
+                        <HomeSingleTeam image="17" title="Հասմիկ Հովակիմյան" />
+                        <HomeSingleTeam image="18" title="Մարիամ Հովհաննիսյան" />
+                        <HomeSingleTeam image="19" title="Հասմիկ Մանուկյան" />
+                        <HomeSingleTeam image="20" title="Աննա Մելիք-Փաշայան" />
+                        <HomeSingleTeam image="21" title="Ծաղիկ Միդուրյան" />
+                        <HomeSingleTeam image="22" title="Լուսինե Միրազիզյան" />
+                        <HomeSingleTeam image="23" title="Դիանա Մկրտչյան" />
                         <HomeSingleTeam image="24" title="Ռոմելլա Միրզոյան" />
-                        <HomeSingleTeam image="25" title="Սահակյան" />
-                        <HomeSingleTeam image="26" title="Սարկիսովա-մանկաբարձ գինեկոլոգ" />
+                        <HomeSingleTeam image="25" title="Անուշիկ Սահակյան" />
+                        <HomeSingleTeam image="26" title="Մարիետա Սարկիսովա" />
                         <HomeSingleTeam image="27" title="Սերգեյ Գինոսյան" />
-                        <HomeSingleTeam image="28" title="Ստեփանյան" />
+                        <HomeSingleTeam image="28" title="Մուշեղ Ստեփանյան" />
                         <HomeSingleTeam image="29" title="Վարվառա Հակոբյան" />
 
                     </div>

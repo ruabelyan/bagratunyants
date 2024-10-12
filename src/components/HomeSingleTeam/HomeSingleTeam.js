@@ -11,9 +11,9 @@ const DoctorsTwoSingleTeam = ({ image, name, title, imgUrl }) => {
                     </div>
                     <div className="team-member-info mt-35 mb-25">
                         <h3><Link to="/doctorDetails">{name}</Link></h3>
-                        <h6 className="f-500 text-up-case letter-spacing pink-color">{title}</h6>
+                        <h6 className="f-500 letter-spacing pink-color">{title}</h6>
                     </div>
-                    <div className="team-social-profile mb-15">
+                    {/* <div className="team-social-profile mb-15">
                         <ul>
                             <li><a href="/"><i className="fab fa-facebook-f"></i></a></li>
                             <li><a href="/"><i className="fab fa-twitter"></i></a></li>
@@ -21,7 +21,7 @@ const DoctorsTwoSingleTeam = ({ image, name, title, imgUrl }) => {
                             <li><a href="/"><i className="fab fa-pinterest"></i></a></li>
                             <li><a href="/"><i className="fab fa-linkedin"></i></a></li>
                         </ul>
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </>

@@ -154,14 +154,15 @@
      color: #223645;
 }
  .header-social-icons {
-     padding-top: 48px;
-     padding-right: 25px;
+    padding-top: 4px;
+    padding-right: 25px;
 }
  .main-menu ul li:hover > a {
      color: #223645;
 }
  .header-right {
      margin-left: 22px;
+     padding: 43px 0;
 }
  .header-social-icons ul li {
      display: inline-block;
@@ -198,10 +199,11 @@
  .header-lang-list {
      position: absolute;
      width: 100%;
+     min-width: 50px;
      right: 0;
      opacity: 0;
      visibility: hidden;
-     padding: 20px 15px !important;
+     padding: 15px 10px !important;
      border-top: 3px solid;
      transition: .4s;
      z-index: 999;
@@ -210,15 +212,20 @@
      padding-top: 4px;
      top: 100%;
 }
+.lang-icon {
+    width: 50px;
+    text-align: center;
+    cursor: pointer;
+}
  .header-lang-list-3 {
      margin-top: 15px;
 }
- .header-lang {
-     padding: 28px 0px;
-}
+//  .header-lang {
+//     padding: 48px 0;
+// }
  .header-lang img {
-     width: 60px;
-     height: 60px;
+     width: 30px;
+     height: 30px;
      border: 3px solid #fff;
      box-shadow: 0px 8px 16px 0px rgba(241, 87, 19, 0.2);
      border-radius: 50%;
@@ -425,26 +432,26 @@
     position: relative;
     color: white;
     border-top: 1px solid #2a3a57;
-    border-bottom: 1px solid #2a3a57;
-    padding: 6px 0;
+    border: 1px solid #2a3a57;
+    padding: 6px;
     margin-bottom: 10px;
 }
-.iconAdd::before{
-    content: '+';
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 20px;
-    height: 20px;
-    font-size: 20px;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-right: 1px solid #2a3a57;
-    border-left: 1px solid #2a3a57;
-    padding: 17px;
-}
+// .iconAdd::before{
+//     content: '+';
+//     position: absolute;
+//     top: 0;
+//     right: 0;
+//     width: 20px;
+//     height: 20px;
+//     font-size: 20px;
+//     color: white;
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+//     border-right: 1px solid #2a3a57;
+//     border-left: 1px solid #2a3a57;
+//     padding: 17px;
+// }
 .icon_close{
     position: relative;
     color: white;
