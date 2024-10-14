@@ -55,19 +55,20 @@ const ServicesDetailsArea = (id) => {
             return <div className="row">
                <HomeSingleTeam imgUrl='../img/doctors/2.jpg' title="Աննա Ասոյան" />
                <HomeSingleTeam imgUrl='../img/doctors/5.jpg' title="Գայանե Ավետիկյան" />
-               <HomeSingleTeam imgUrl='../img/doctors/9.jpg' title="Գայանե Բարսելյանց" />
-               <HomeSingleTeam imgUrl='../img/doctors/23.jpg' title="Դիանա Մկրտչյան" />
                <HomeSingleTeam imgUrl='../img/doctors/22.jpg' title="Լուսինե Միրազիզյան" />
-               <HomeSingleTeam imgUrl='../img/doctors/7.jpg' title="Մարինե Բաբայան" />
                <HomeSingleTeam imgUrl='../img/doctors/8.jpg' title="Գոհար Բաբայան" />
-               <HomeSingleTeam imgUrl='../img/doctors/28.jpg' title="Մուշեղ Ստեփանյան" />
-               <HomeSingleTeam imgUrl='../img/doctors/11.jpg' title="Սուսան Գևորգյան" />
                <HomeSingleTeam imgUrl='../img/doctors/16.jpg' title="Ստեփան Կսպոյան" />
                <HomeSingleTeam imgUrl='../img/doctors/27.jpg' title="Սերգեյ Գինոսյան" />
-               <HomeSingleTeam imgUrl='../img/doctors/29.jpg' title="Վարվառա Հակոբյան" />
             </div>;
          case '4':
-            return <div className='row'>No Data </div>;
+            return <div className='row'>
+               <HomeSingleTeam imgUrl='../img/doctors/9.jpg' title="Գայանե Բարսելյանց" />
+               <HomeSingleTeam imgUrl='../img/doctors/23.jpg' title="Դիանա Մկրտչյան" />
+               <HomeSingleTeam imgUrl='../img/doctors/7.jpg' title="Մարինե Բաբայան" />
+               <HomeSingleTeam imgUrl='../img/doctors/28.jpg' title="Մուշեղ Ստեփանյան" />
+               <HomeSingleTeam imgUrl='../img/doctors/11.jpg' title="Սուսան Գևորգյան" />
+               <HomeSingleTeam imgUrl='../img/doctors/29.jpg' title="Վարվառա Հակոբյան" />
+            </div>;
          default:
             return <div className='row'>Value not between 1 and 4</div>;
       }
