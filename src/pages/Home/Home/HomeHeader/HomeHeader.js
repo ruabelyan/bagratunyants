@@ -22,8 +22,15 @@ const HomeHeader = ({ logo }) => {
                   <div style={{ backgroundColor: '#0e1136' }} className="row d-flex align-items-center">
                      <div className="col-xl-6 offset-xl-1 col-lg-6 offset-lg-1 col-md-7 offset-md-1">
                         <div className="header-info">
-                           <span style={{ color: 'white' }}><i className="fas fa-phone"></i> (010) 48-21-51</span>
-                           <span style={{ color: 'white' }}><i className="fas fa-envelope"></i> poliklinika-13@mail.ru</span>
+                           <a href="tel:+37410482151">
+                              <span style={{ color: "white" }}><i class="fas fa-phone"></i> (010) 48-21-51</span>
+                           </a>
+                           {/* <span style={{ color: 'white' }}><i className="fas fa-phone"></i> (010) 48-21-51</span> */}
+
+                           <a href="mailto: poliklinika-13@mail.ru">
+                              <span style={{ color: 'white' }}><i className="fas fa-envelope"></i> poliklinika-13@mail.ru</span>
+                           </a>
+
                         </div>
                      </div>
                      <div className="col-xl-5 col-lg-5 col-md-4">
