@@ -6,7 +6,7 @@ const HomeOurTeam = () => {
    const { t } = useTranslation();
    return (
       <>
-         <section className="team-area pt-115 pb-55">
+         <section className="team-area pt-115 pb-115">
             <div className="container">
                <div className="row">
                   <div className="col-xl-6 col-lg-7 col-md-10">
@@ -15,8 +15,8 @@ const HomeOurTeam = () => {
                            <img className="section-back-icon back-icon-left" src="img/section/section-back-icon.png" alt="" />
                         </div>
                         <div className="section-text pos-rel">
-                           <h5>{t('our_team_key')}</h5>
-                           <h1>{t('professional_care_provider_key')}</h1>
+                           {/* <h5>{t('our_team_key')}</h5> */}
+                           <h1>{t('Ղեկավարություն')}</h1>
                         </div>
                         <div className="section-line pos-rel">
                            <img src="img/shape/section-title-line.png" alt="" />
@@ -30,8 +30,8 @@ const HomeOurTeam = () => {
                   </div>
                </div>
                <div className="row">
-                  <HomeSingleTeam image="30" name="Ռուզան Դուրգարյան" title={t("տնօրեն")}  />
-                  <HomeSingleTeam image="31" name="Արմինե Ջանոյան" title={t("փորձաքննության գծով տնօրենի տեղակալ")}/>
+                  <HomeSingleTeam image="30" name="Ռուզան Դուրգարյան" title={t("տնօրեն")} />
+                  <HomeSingleTeam image="31" name="Արմինե Ջանոյան" title={t("փորձաքննության գծով տնօրենի տեղակալ")} />
 
                </div>
             </div>

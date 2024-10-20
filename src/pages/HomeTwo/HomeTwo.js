@@ -15,18 +15,18 @@ import HomeTwoTestimonials from './HomeTwoTestimonials/HomeTwoTestimonials';
 const HomeTwo = () => {
     return (
         <>
-            <HomeTwoNavBar/>
-            <HomeTwoHeroSection/>
-            <HomeTwoAbout/>
-            <HomeTwoMissionArea/>
-            <HomeTwoCounter/>
-            <HomeTwoAppoinmentArea/>
-            <HomeTwoServicesArea/>
-            <HomeTwoTestimonials/>
-            <HomeTwoNewsLetter/>
-            <HomeTwoTeamArea/>
-            <HomeTwoBlogs/>
-            <HomeTwoFooter/>
+            <HomeTwoNavBar />
+            <HomeTwoHeroSection />
+            <HomeTwoAbout />
+            <HomeTwoMissionArea />
+            <HomeTwoCounter />
+            <HomeTwoAppoinmentArea />
+            <HomeTwoServicesArea />
+            <HomeTwoTestimonials />
+            <HomeTwoNewsLetter />
+            <HomeTwoTeamArea />
+            <HomeTwoBlogs />
+            <HomeTwoFooter />
         </>
     );
 };

@@ -5,47 +5,86 @@ const CommonSectionArea = ({ area_header }) => {
 
    return (
       <>
-         <section className="about-area pt-120 pb-90">
+         <section className="about-area pt-30 pb-90">
             <div className="container">
+
+               <div className="about-title mb-20">
+                  <h1>{t("short_story_clinic_key")}</h1>
+               </div>
                <div className="row">
                   <div className="col-xl-6 col-lg-5">
                      {area_header}
                   </div>
-                  <div className="col-xl-6 col-lg-7">
-                     <div className="about-right-side pt-55 mb-30">
-                        <div className="about-title mb-20">
-                           <h5>{t("about_us_key")}</h5>
-                           <h1>{t("short_story_clinic_key")}</h1>
-                        </div>
-                        <div className="about-text mb-50">
-                           <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                              irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                              cupidatat non proident, sunt in culpa qui officia.</p>
-                        </div>
-                        <div className="our-destination">
-                           <div className="single-item mb-30">
-                              <div className="mv-icon f-left">
-                                 <img src="img/about/destination-icon-1.png" alt="" />
-                              </div>
-                              <div className="mv-title fix">
-                                 <h3>{t("our_mission_key")}</h3>
-                                 <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                                    irure dolor in reprehenderit in voluptate velit esse.</p>
-                              </div>
+
+                  <div className="col-xl-6 col-lg-5">
+                     <div className="our-destination mt-4">
+                        <div className="single-item mb-30">
+                           <div className="mv-icon f-left">
+                              <img src="img/about/destination-icon-1.png" alt="" />
                            </div>
-                           <div className="single-item">
-                              <div className="mv-icon f-left">
-                                 <img src="img/about/destination-icon-2.png" alt="" />
-                              </div>
-                              <div className="mv-title fix">
-                                 <h3>{t("our_vision_key")}</h3>
-                                 <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                                    irure dolor in reprehenderit in voluptate velit esse.</p>
-                              </div>
+                           <div className="mv-title fix">
+                              <h3>{t("our_mission_key")}</h3>
+                              <p>Առողջ կյանք Ձեր և Ձեր ընտանիքի համար։</p>
+
                            </div>
+                        </div>
+                        <div className="single-item">
+                           <div className="mv-icon f-left">
+                              <img src="img/about/destination-icon-2.png" alt="" />
+                           </div>
+                           <div className="mv-title fix">
+                              <h3>{t("our_vision_key")}</h3>
+                              <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                                 irure dolor in reprehenderit in voluptate velit esse.</p>
+                           </div>
+
                         </div>
                      </div>
+
                   </div>
+                  <div className="col-xl-12 col-lg-12">
+                     <div className="about-right-side pt-55 ">
+
+                        <div className="about-text">
+                           <p>Երևանի «Բագրատունյաց» ԱԿ ՓԲԸ հիմնադրվել է 1972 թվականին և հանդիսանում է «Թիվ 13 պոլիկլինիկա» ՓԲԸ-ի
+                              իրավահաջորդը ։ Մեր գործունեության հիմնական տեսակն է բնակչությանը առաջնայի պահպանման ծառայությունների մատուցումը։
+                              2001 թվականին մեր կենտրոնին միավորվել է «Թիվ 7 մանկական պոլիկլինիկա» ԱՊ ՓԲԸ-ն, իսկ 2011թվականին՝ «Թիվ
+                              4 բուժսանմաս» ՓԲԸ-ն։ 2022 թվականին մեզ է միացել նաև «Նորագավիթ պոլիկլինիկա» ՓԲԸ-ն՝ որպես ստորաբաժանում, որը
+                              գործում է Նորագավիթ 1-ին փողոց 95/6 հասցեում։
+                              Ընկերությունը գտնվում է Շենգավիթ վարչական շրջանում, Ներքին Շենգավիթ 9փ․ 32 շենք հասցեում (Շահամիր
+                              Շահամիրյանի 22/1):
+                              Տարիների ընթացքում մեր առողջության կենտրոնը վերանորոգվել է, համալրվել նորագույն սարքավորումներով։ Ունենալով
+                              երկար տարիների փորձ՝ մենք մշտապես քայլում ենք ժամանակին համընթաց՝ արդիականացնելով ախտորոշիչ և բուժական
+
+                              մեթոդները, ավելացնում ենք նոր ծառայություններ և ուշադրության կենտրոնում պահում անձնակազմի շարունակական
+                              վերապատրաստումները, տեղական և միջազգային կոնֆերանսներին մաստակցությունը։
+                              Ընկերության առանձնահատկություններից մեկը կայանում է մասնագիտացված պարբերական բժշկական քննությունների
+                              իրականացումը՝ համաձայն ՀՀ կառավարության 1089-Ն որոշման: 2000-2002թթ ընկերության կողմից կատարվել է գիտական
+                              հետազոտություն ՀՀ խոշոր կազմակերպություններից մեկի աշխատողների շրջանում, հետազոտության տվյալները ընդունվել և
+                              տպագրվել են բազմաթիվ միջազգային կոնֆերասներում, հետագայում դառնալով թեկնածուական թեզ: Մյուս
+                              առանձնահատկություններից է շարունակական գիտական հետազոտությունները ընկերությունում, որում ներգրավված են
+                              Ընկերության բժիշկները: Դրա վկայությունն է 2012թ. թրոմբոզների թեմայով Նիցայում կայացած, 2014թ. Ամստերդամում
+                              կայացած Europevent միջազգային կոնֆերանսներում ընկերության կողմից ներկայացված և ընդունված աշխատանքները, 2018-
+                              2019-ին ընկերությունում կատավել է հետազոտություն SORT IT-ի շրջանակներում, որը տպագրվել է համահայկական 5-րդ
+                              գիտաժողովի նյութերում:</p>
+                        </div>
+
+                     </div>
+                  </div>
+                  {/* <ul>
+                        <li>Իմունականխարգելում /պատվաստումներ/</li>
+                        <li>Զարկերակային ճնշման չափում՝ հիպերտոնիայի վաղ հայտնաբերման նպատակով,</li>
+                        <li>Գլյուկոմետրիայի իրականացում` դիաբետի վաղ հայտնաբերման նպատակով,</li>
+                        <li>Կրծքագեղձի զննում՝ քաղցկեղի վաղ հայտնաբերման նպատակով (մամոգրաֆիայի նշանակում` ըստ բժշկական
+                           ցուցման),</li>
+                        <li>Պապ քսուք՝ արգանդի վզիկի քաղցկեղի վաղ հայտնաբերման նպատակով,</li>
+                        <li>Ժառանգական անամնեզում գլաուկոմա ունեցող 40 տարեկան և ավելի բարձր տարիքի անձանց տեսողության
+                           սրության որոշում և ներակնային ճնշման չափում գլաուկոմայի վաղ հայտնաբերման նպատակով,</li>
+                        <li>Քաշի խանգարումների և մետաբոլիկ խանգարումների վաղ հայտնաբերման նպատակով մարմնի զանգվածի
+                           ցուցանիշի որոշումը:</li>
+                        <li>Մինչև 18 տարեկան երեխաների առողջ դիսպանսերիզացիա</li>
+                     </ul> */}
+
                </div>
             </div>
          </section>

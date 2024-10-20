@@ -12,7 +12,7 @@ const PriceList = () => {
    return (
       <>
          <HomeHeader />
-         <CommonPageHeader title={t("about_us_key")} subtitle={t('price_list_key')} />
+         <CommonPageHeader title={t("price_list_key")} subtitle={t('price_list_key')} />
          <PriceListArea />
          <Footer />
       </>

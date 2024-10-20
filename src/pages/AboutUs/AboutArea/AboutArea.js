@@ -20,6 +20,7 @@ const AboutArea = () => {
                <div className="about-shape">
                   <img src="img/about/about-shape.png" alt="" />
                </div>
+
             </div>
          } />
       </>

@@ -30,8 +30,68 @@ const PriceListArea = () => {
       );
    });
 
+   const cardStyles = {
+      backgroundColor: '#ffffff',
+      borderRadius: '10px',
+      padding: '20px',
+      boxShadow: '0px 4px 10px rgba(0, 0, 0, 0.1)',
+      marginBottom: '20px'
+   };
+
+   const titleStyles = {
+      color: '#2c3e50',
+      fontWeight: 'bold'
+   };
+
+   const contactInfoStyles = {
+      fontSize: '1.1rem',
+      color: 'black'
+   };
+
+   const highlightStyles = {
+      color: '#952d3e',
+      fontWeight: 'bold'
+   };
+
    return (
       <div className="container" style={{ maxWidth: '1200px' }}>
+         <div className="container mt-5">
+            <div style={cardStyles}>
+               <h3 style={titleStyles}>1․ Հերթագրման համար զանգահարել՝</h3>
+               <p style={contactInfoStyles}>
+                  +374 10 48 21 61 կամ +374 10 48 21 71 <br />
+                  <span style={highlightStyles}>18 տարեկանից բարձր ազգաբնակչության համար</span>
+               </p>
+               <p style={contactInfoStyles}>
+                  +374 10 48 08 00 <br />
+                  <span style={highlightStyles}>Մինչև 18 տարեկան ազգաբնակչության համար</span>
+               </p>
+               <p>
+                  Կարող եք հերթագրվել նաև առցանց՝ <strong>ArMed հավելվածի</strong> միջոցով:
+               </p>
+            </div>
+
+            {/* Step 2: Appointment Process */}
+            <div style={cardStyles}>
+               <h3 style={titleStyles}>2․ Նախապես ամրագրված ժամին մոտենալ</h3>
+               <p>
+                  Խնդրում ենք մոտենալ Ձեր նախապես ամրագրված ժամին և սպասել միջանցքում մինչ էլեկտրոնային ցուցատախտակի վրա
+                  ձեր հերթագրման կտրոնի համարի հայտնվելը։
+               </p>
+            </div>
+
+            {/* Step 3: Service Information */}
+            <div style={cardStyles}>
+               <h3 style={titleStyles}>3․ Նեղ մասնագիտական և լաբորատոր գործիքային ախտորոշիչ հետազոտություններ</h3>
+               <p>
+                  Նեղ մասնագիտական և լաբորատոր գործիքային ախտորոշիչ հետազոտությունները կատարվում են անվճար
+                  <span style={highlightStyles}> թերապևտի կամ մանկաբույժի ուղեգրմամբ</span>:
+               </p>
+               <p>
+                  Մնացած դեպքերում ծառայությունները վճարովի են։
+               </p>
+            </div>
+         </div>
          {/* Search input */}
          <div className="row pt-4 pb-4">
             <div className="col-12">
@@ -136,6 +196,7 @@ const PriceListArea = () => {
          {filteredData.length === 0 && (
             <p>Տվյալներ չեն հայտնաբերվել "{searchQuery}".</p>
          )}
+
       </div>
    );
 };

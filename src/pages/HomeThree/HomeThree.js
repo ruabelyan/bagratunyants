@@ -19,16 +19,16 @@ const HomeThree = () => {
             <HomeThreeNavBar />
             <HomeThreeHeroSection />
             <HomeThreeAboutArea />
-            <HomeThreeServices/>
-            <HomeThreeFactArea/>
-            <HomeThreeTeams/>
-            <HomeThreeMembership/>
-            <HomeThreeFaq/>
-            <HomeThreePricing/>
-            <Hiring/>
-            <HomeThreeBrandArea/>
-            <HomeThreeBlogs/>
-            <Footer/>
+            <HomeThreeServices />
+            <HomeThreeFactArea />
+            <HomeThreeTeams />
+            <HomeThreeMembership />
+            <HomeThreeFaq />
+            <HomeThreePricing />
+            <Hiring />
+            <HomeThreeBrandArea />
+            <HomeThreeBlogs />
+            <Footer />
         </>
     );
 };

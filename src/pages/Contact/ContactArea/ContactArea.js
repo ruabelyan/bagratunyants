@@ -12,7 +12,7 @@ const ContactArea = () => {
                             <div className="contact text-center mb-30">
                                 <i className="fas fa-envelope"></i>
                                 <h3>{t("mail_here_key")}</h3>
-                                <a href="poliklinika-13@mail.ru">Jon Doe</a>
+                                <a href="email:poliklinika-13@mail.ru">poliklinika-13@mail.ru</a>
                             </div>
                         </div>
                         <div className="col-xl-4 col-lg-4 col-md-4">
@@ -26,7 +26,9 @@ const ContactArea = () => {
                             <div className="contact text-center mb-30">
                                 <i className="fas fa-phone"></i>
                                 <h3>{t("call_here_key")}</h3>
-                                <p>(010) 48-21-51</p>
+                                <a href="tel:+37410482151">
+                                    <span > +374 10 48-21-51</span>
+                                </a>
                             </div>
                         </div>
                     </div>
