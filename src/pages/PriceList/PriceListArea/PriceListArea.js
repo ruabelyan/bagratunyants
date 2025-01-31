@@ -49,7 +49,7 @@ const PriceListArea = () => {
    };
 
    const highlightStyles = {
-      color: '#952d3e',
+      color: '#3f5ece',
       fontWeight: 'bold'
    };
 

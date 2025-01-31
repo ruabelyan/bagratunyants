@@ -19,7 +19,7 @@ const Home = () => {
                         fontFamily: 'Arial, sans-serif',
                         color: '#2c3e50',
                         backgroundColor: '#f9f9f9',
-                        borderLeft: '5px solid #952d3e',
+                        borderLeft: '5px solid #3f5ece',
                         padding: '15px',
                         borderRadius: '10px',
                         boxShadow: '0px 4px 8px rgba(0, 0, 0, 0.1)',

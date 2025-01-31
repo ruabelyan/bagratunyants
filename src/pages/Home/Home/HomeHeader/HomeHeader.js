@@ -47,7 +47,7 @@ const HomeHeader = ({ logo }) => {
                   <div style={{ justifyContent: 'space-between' }} className="row align-items-center">
                      <div className="col-xl-3 col-lg-3 col-md-6 col-6 d-flex align-items-center">
                         <div className="logo logo-circle pos-rel">
-                           <Link to="/"><img style={{ maxWidth: '170px' }} src={logo || "img/logo/logo.png"} alt="" /></Link>
+                           <Link to="/"><img style={{ maxWidth: '230px' }} src={logo || "img/logo/logo.png"} alt="" /></Link>
                         </div>
                      </div>
                      <div className="col-xl-9 col-lg-9 col-md-6 col-6">
