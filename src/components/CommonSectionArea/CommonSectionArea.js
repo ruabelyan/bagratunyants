@@ -9,7 +9,7 @@ const CommonSectionArea = ({ area_header }) => {
             <div className="container">
 
                <div className="about-title mb-20">
-                  <h1>{t("short_story_clinic_key")}</h1>
+                  <h1>{t("our_mission_key")}</h1>
                </div>
                <div className="row">
                   <div className="col-xl-6 col-lg-5">
@@ -23,12 +23,13 @@ const CommonSectionArea = ({ area_header }) => {
                               <img src="img/about/destination-icon-1.png" alt="" />
                            </div>
                            <div className="mv-title fix">
-                              <h3>{t("our_mission_key")}</h3>
+                              {/* <h3>{t("our_mission_key")}</h3> */}
+                              <h3>Կարճ պատմություն Բագրատունյանց ԱԿ-ի մասին։</h3>
                               <p>Առողջ կյանք Ձեր և Ձեր ընտանիքի համար։</p>
 
                            </div>
                         </div>
-                        <div className="single-item">
+                        {/* <div className="single-item">
                            <div className="mv-icon f-left">
                               <img src="img/about/destination-icon-2.png" alt="" />
                            </div>
@@ -38,7 +39,7 @@ const CommonSectionArea = ({ area_header }) => {
                                  irure dolor in reprehenderit in voluptate velit esse.</p>
                            </div>
 
-                        </div>
+                        </div> */}
                      </div>
 
                   </div>
