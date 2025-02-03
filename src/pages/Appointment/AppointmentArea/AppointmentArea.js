@@ -17,8 +17,8 @@ const AppointmentArea = () => {
                     </div>
                     <div className="about-front-img pos-rel">
                         <img src="img/about/about-img-3.jpg" alt=""/>
-                            <button onClick={() => setOpen(true)} className="popup-video about-video-btn white-video-btn"
-                                ><i className="fas fa-play"></i></button>
+                            {/* <button onClick={() => setOpen(true)} className="popup-video about-video-btn white-video-btn"
+                                ><i className="fas fa-play"></i></button> */}
                     </div>
                     <div className="about-shape">
                         <img src="img/about/about-shape.png" alt=""/>

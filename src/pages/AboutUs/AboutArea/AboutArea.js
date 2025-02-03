@@ -14,8 +14,8 @@ const AboutArea = () => {
             <div className="about-left-side pos-rel mb-30">
                <div className="about-front-img pos-rel">
                   <img src="img/about/about-img.jpg" alt="" />
-                  <button onClick={() => setOpen(true)} className="popup-video about-video-btn white-video-btn">
-                     <i className="fas fa-play"></i></button>
+                  {/* <button onClick={() => setOpen(true)} className="popup-video about-video-btn white-video-btn">
+                     <i className="fas fa-play"></i></button> */}
                </div>
                <div className="about-shape">
                   <img src="img/about/about-shape.png" alt="" />
