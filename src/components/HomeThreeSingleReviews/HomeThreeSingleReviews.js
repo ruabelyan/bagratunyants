@@ -23,7 +23,6 @@ const HomeThreeSingleReviews = ({image,name,text}) => {
                         </div>
                         <div className="author-desination author-desination-2">
                             <h4>{name}</h4>
-                            <h6>Founder, TrashTheme</h6>
                         </div>
                     </div>
                 </div>

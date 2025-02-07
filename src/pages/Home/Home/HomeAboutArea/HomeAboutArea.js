@@ -21,14 +21,14 @@ const HomeAboutArea = () => {
                      </div>
                   </div>
                   <div className="col-xl-6 col-lg-7">
-                     <div className="about-right-side pt-55 mb-30">
-                        <div className="about-title mb-20">
-                           {/* <h5>{t('about_key')}</h5> */}
+                     <div className="about-right-side mb-30">
+                        {/* <div className="about-title mb-20">
+                           <h5>{t('about_key')}</h5>
                            <h1>Մեր պատմությունը</h1>
-                        </div>
-                        <div className="about-text">
+                        </div> */}
+                        {/* <div className="about-text">
                            <p> Երևանի «Բագրատունյաց» առողջության կենտրոնի կողմից բնակչությանը տրամադրվում է պետության կողմից երաշխավորված անվճար արտահիվանդանոցային բժշկական օգնություն և սպասարկում՝  համաձայն ՀՀ կառավուրաթյան 318-Ն որոշման:</p>
-                        </div>
+                        </div> */}
                         <div className="about-author d-flex align-items-center">
                            <div className="author-ava">
                               <img src="img/about/author-ava.jpg" alt="" />

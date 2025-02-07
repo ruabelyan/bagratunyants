@@ -57,10 +57,10 @@ const HomeThreeMembership = () => {
                </div>
                <div className="membership-review member-ship-map gray-bg pos-rel">
                   <Slider className='testimonials-activation' {...settings}>
-                     <HomeThreeSingleReviews text='text text text text text text text text text text text text text text text text text text  text text text' image="2" name="Mr. Halim Dawn" />
-                     <HomeThreeSingleReviews image="3" name="Hiliam D. Pawlu" />
-                     <HomeThreeSingleReviews image="1" name="Eric Z. Piedie" />
-                     <HomeThreeSingleReviews image="2" name="Mr. Halim Dawn" />
+                     <HomeThreeSingleReviews text='«Շատ հոգատար և պրոֆեսիոնալ բժիշկ է։ Միշտ հանգիստ և սիրալիր վերաբերմունք ունի երեխաների նկատմամբ։ Նրա շնորհիվ իմ փոքրիկի առողջական վիճակը արագ բարելավվեց։»' image="2" name="Gayane M" />
+                     <HomeThreeSingleReviews text='Աննա Մելիք-Փաշայանը բավականին բանիմաց բժիշկ է։ Իր գործը շատ լավ է կատարում։' image="3" name="Նարինե Անդրեասյան" />
+                     <HomeThreeSingleReviews text='Shat lav spasarkum en katarum, hogatar bjishkner' image="1" name="Սոսե" />
+                     <HomeThreeSingleReviews text='mianshanak xorhurd ktam ays poliklinikan ' image="2" name="Արամ" />
                   </Slider>
                </div>
             </div>
